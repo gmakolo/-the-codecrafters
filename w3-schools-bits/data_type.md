@@ -6,9 +6,9 @@ Data types tell us what kind of data we are using.
 
 ## Examples
 
-* int → number
-* string → text
-* bool → true/false
+* int is a number
+* string is a text
+* bool is true/false
 
 ## My Understanding
 
