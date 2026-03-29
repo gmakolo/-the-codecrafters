@@ -13,7 +13,7 @@ func main() {
 		var number string
 		var base string
 
-		fmt.Print("What would you like to convert?")
+		fmt.Print("What would you like to convert?  ")
 		fmt.Scan(&command)
 
 		if command == "quit" {
