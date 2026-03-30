@@ -21,7 +21,7 @@ func main() {
 		}
 
 		if command != "convert" {
-			fmt.Println("Unknown command")
+			fmt.Println("Unknown command: \n Right way to use: convert 1E hex")
 			continue
 		}
 
@@ -36,7 +36,7 @@ func main() {
 				continue
 			}
 
-			fmt.Println("✦ Decimal:", decimal)
+			fmt.Println("Decimal:", decimal)
 		}
 
 		if base == "bin" {
@@ -48,7 +48,7 @@ func main() {
 				continue
 			}
 
-			fmt.Println("✦ Decimal:", decimal)
+			fmt.Println("Decimal:", decimal)
 		}
 
 		if base == "dec" {
@@ -63,12 +63,20 @@ func main() {
 			binary := strconv.FormatInt(decimal, 2)
 			hex := strings.ToUpper(strconv.FormatInt(decimal, 16))
 
-			fmt.Println("✦ Binary:", binary)
-			fmt.Println("✦ Hex:", hex)
+			fmt.Println("Binary:", binary)
+			fmt.Println("Hex:", hex)
 		}
 
 		if base != "hex" && base != "bin" && base != "dec" {
 			fmt.Println("Base must be hex, bin, or dec")
 		}
+		fmt.Println("would you like to convert again? \n yes/no")
+		var input string
+		fmt.Scanln(&input)
+		if input == "yes" {
+			continue
+		}
+		break
 	}
+
 }

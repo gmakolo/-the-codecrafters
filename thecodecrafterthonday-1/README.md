@@ -6,7 +6,7 @@ This is a small Go calculator. You can add, subtract, multiply, and divide numbe
 
 1. Make sure Go is installed
 2. Open terminal and go to the folder with main.go
-3. Run:
+3. Run:go run main.go
 
 4. You will see a menu:
 1 Add
