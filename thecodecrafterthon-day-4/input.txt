@@ -1,0 +1,5 @@
+THIS IS AN ALL CAPS LINE
+TODO: Finish writing the report
+i loVE - mE
+CLASSIFIED: Do not share this information
+   This line has leading and trailing spaces   
