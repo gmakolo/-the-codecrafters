@@ -34,5 +34,4 @@ reverse Go is fun
 oG si nuf
 
 ## Author
-
-Your Name
+MAKOLO GIFT ELEOJO
